@@ -1,0 +1,109 @@
+.main {
+    width: 100%;
+}
+
+html {
+    display: flex;
+    width: 100%;
+    max-width: 300px;
+    background-color: #000000;
+}
+
+.bg {
+    background-image: url("bg2.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+
+}
+
+body {
+    display: flex;
+    height: 100%;
+    width: auto;
+}
+
+h1 {
+    color: darkgray;
+    font-family: impact;
+    font-size: 3.5rem;
+    margin: auto;
+    padding-top: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 0px #fff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: red;
+}
+
+.h6 {
+    color: #fff;
+    text-align: center;
+    font-family: serif;
+    margin-top: 3px;
+    font-size: 1.75rem;
+}
+
+.top-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+iframe {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px #fff;
+}
+
+#ink {
+    display: flex;
+    width: auto;
+    border: 3px solid #ffffff;
+    border-radius: 30px;
+    height: 300px;
+    margin: auto;
+    box-shadow: 0px 0px 28px #ffffff;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    display: flex;
+    flex: 33.33%;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+.grm {
+    width: 500px;
+}
+
+.top-div-left {
+    height: 315;
+    justify-content: left;
+    align-items: center;
+}
+
+p {
+    color: #fff;
+    display: block;
+    font-family: arial;
+    font-size: 1.5rem;
+    height: 350px;
+    width: 400px;
+    justify-content: left;
+    margin: auto;
+    -webkit-text-stroke-width: .3px;
+    -webkit-text-stroke-color: darkred;
+
+
+}
